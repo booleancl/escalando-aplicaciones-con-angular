@@ -10,11 +10,6 @@ Feature: Autenticación
   Scenario: Ingresar a la página de autenticación
     Given ingreso a la página de autenticación
 
-  Scenario: Redirección a la página de postulación de beca
-    Given ingreso a la página de autenticación
-    When hago clic en el enlace de postulación a la beca
-    Then soy redirigido a la página de postulación
-
   Scenario: Login con email, password y grupos
     Given ingreso a la página de autenticación
     When selecciono un grupo del menú grupos

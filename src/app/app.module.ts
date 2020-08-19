@@ -7,8 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './modules/core/core.module';
 
 import { AppComponent } from './app.component';
-import { ScholarshipFormComponent } from './scholarship-form/scholarship-form.component';
-import { ScholarshipPostulationsComponent } from './scholarship-postulations/scholarship-postulations.component';
 import { RolesComponent } from './roles/roles.component';
 
 import {MatInputModule} from '@angular/material/input';
@@ -20,8 +18,6 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 @NgModule({
   declarations: [
     AppComponent,
-    ScholarshipFormComponent,
-    ScholarshipPostulationsComponent,
     RolesComponent
   ],
   imports: [
